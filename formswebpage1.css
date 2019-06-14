@@ -1,0 +1,42 @@
+*main{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contanint{
+  width: 120vw;
+  height: 120vh;
+  display: flex;
+
+}
+.clmn{
+  width: 30vw;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+.clmn img{
+  width: 20vw;
+  height: 15vh;
+  border-radius: 50%
+}
+.nav{
+  width:28vw;
+  flex-direction: column;
+}
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+ul li a{
+  display: block;
+}
+ul li a:hover{
+  background-color: white;
+  color: black;
+  transition-delay: 0.1s
+}
